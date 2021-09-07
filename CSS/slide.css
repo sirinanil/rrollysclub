@@ -87,3 +87,16 @@ img.slideimg {
   top: 38%;
   font-size: 40px;
 }
+@media (max-width: 1377px) {
+  .HideOnMobile {
+    display: none;
+  }
+  .ShowOnMobile {
+    display: block;
+  }
+}
+@media (min-width: 1377px) {
+  .ShowOnMobile {
+    display: none;
+  }
+}
