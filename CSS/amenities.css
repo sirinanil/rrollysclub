@@ -1,0 +1,31 @@
+p.imgp,
+p.imgp2,
+p.imgp3,
+p.imgp4,
+p.imgp5,
+p.imgp6 {
+  position: absolute;
+  left: 14.6%;
+  top: 505px;
+  font-size: 20px;
+}
+p.imgp2 {
+  left: 44%;
+}
+p.imgp3 {
+  left: 76%;
+}
+p.imgp4,
+p.imgp5,
+p.imgp6 {
+  top: 550px;
+}
+p.imgp4 {
+  left: 15%;
+}
+p.imgp5 {
+  left: 46.7%;
+}
+p.imgp6 {
+  left: 77.3%;
+}

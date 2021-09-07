@@ -1,0 +1,89 @@
+h2.memheader,
+p.memheader2,
+p.memheader3 {
+  position: absolute;
+  left: 50%;
+  top: 6%;
+  transform: translate(-50%, -50%);
+  font-size: 33px;
+}
+p.memheader2,
+p.memheader3 {
+  font-size: 18px;
+  top: 14%;
+}
+p.memheader3 {
+  text-align: center;
+  top: 18%;
+}
+p.price,
+p.price2,
+p.price3 {
+  position: absolute;
+  left: 22%;
+  top: 165px;
+  font-size: 23px;
+}
+p.price2 {
+  left: 45%;
+}
+p.price3 {
+  left: 68%;
+}
+p.basic,
+p.premium,
+p.vip {
+  position: absolute;
+  top: 206px;
+  font-size: 21px;
+}
+p.basic {
+  left: 22%;
+}
+p.vip {
+  left: 45%;
+}
+p.premium {
+  left: 68%;
+}
+p.basic2,
+p.vip2,
+p.premium2 {
+  position: absolute;
+  width: 17%;
+  font-size: 18px;
+  left: 22%;
+  top: 250px;
+}
+p.vip2 {
+  left: 45%;
+}
+p.premium2 {
+  left: 68%;
+}
+button.button,
+button.button2,
+button.button3 {
+  position: absolute;
+  left: 22%;
+  top: 558px;
+  height: 40px;
+  width: 122px;
+  border: 2px solid yellow;
+  background-color: black;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+button.button:hover,
+button.button2:hover,
+button.button3:hover {
+  color: #000;
+  background-color: yellow;
+}
+button.button2 {
+  left: 45%;
+}
+button.button3 {
+  left: 68%;
+}

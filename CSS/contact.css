@@ -1,0 +1,117 @@
+.contact {
+  position: relative;
+  background-color: #000;
+  height: 650px;
+  margin-top: 60px;
+}
+h2.conheader {
+  position: absolute;
+  top: 50px;
+  left: 300px;
+  font-size: 45px;
+}
+p.adress {
+  position: absolute;
+  top: 164px;
+  left: 231px;
+}
+p.gmail {
+  position: absolute;
+  top: 240px;
+  left: 326px;
+}
+p.phone {
+  position: absolute;
+  top: 317px;
+  left: 350px;
+}
+form.form {
+  position: absolute;
+  top: 285px;
+  right: 335px;
+  width: 450px;
+  height: 470px;
+}
+label.lastname,
+label.email {
+  position: absolute;
+  top: 0;
+  right: 170px;
+}
+input#lname,
+input#email {
+  position: absolute;
+  top: 23px;
+  right: 67px;
+  height: 25px;
+}
+input#email {
+  top: 87px;
+}
+label.email {
+  top: 66px;
+  right: 203px;
+}
+input#subject {
+  width: 83%;
+  height: 30px;
+}
+input#message {
+  width: 83%;
+  height: 135px;
+  margin-top: 25px;
+}
+label.message {
+  position: absolute;
+  top: 209px;
+}
+input#fname {
+  height: 25px;
+}
+input#phone {
+  height: 25px;
+  position: absolute;
+  top: 87px;
+}
+label.phone {
+  position: absolute;
+  top: 66px;
+}
+input.submit {
+  position: absolute;
+  width: 85%;
+  top: 406px;
+  height: 35px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  font-size: 23px;
+}
+.style {
+  background-color: #000;
+  border: none;
+  border-bottom: 1px solid #fff;
+}
+.style:hover {
+  border: 1px solid #fff;
+}
+input {
+  color: #fff;
+}
+input.submit:hover {
+  background-color: #1c1c1f;
+  color: #fff;
+}
+.social {
+  text-align: center;
+  margin-top: 35px;
+  height: 30px;
+}
+a.fa {
+  padding-left: 35px;
+  font-size: 23px;
+  margin-right: 17px;
+}
+p.copyright {
+  text-align: center;
+}
