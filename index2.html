@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RRollys Club</title>
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/slide.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body class="HideOnMobile">
+    <a href="index2.html"><h1 class="header">RROLLYS</h1></a>
+    <nav class="navbar">
+        <a href="index2.html" class="nava">Home</a>
+        <a href="#facilities" class="nava">Facilities</a>
+        <a href="membership.html" class="nava">Memberships</a>
+        <a href="amenities.html" class="nava">Amenities</a>
+        <a href="opening.html" class="nava">Opening Hours</a>
+        <a href="contact.html" class="nava">Contact</a>
+    </nav>
+    <div class="imgcon"></div>
+    <div class="paragcon">
+        <h2 class="header2">RROLLYS: <br> Let's Play!</h2>
+        <p class="imgparag">​Your Sports & Fitness Club</p>
+        <p class="imgparag2">​Health, wellness, fitness, RROLLYS. Our state-of-the-art Sports & Fitness Club offers the best facilities and equipment in the greater San Francisco region. Whether you want to improve your athletic performance, get in shape, or have some fun with your friends, come on down to RROLLYS and shake it up with us!</p>
+    </div>
+    <div class="position">
+        <img src="images/dumbell.jpg" class="aboutpic">
+        <div class="box">
+            <h2 class="aboutheader">About Us</h2>
+            <p class="aboutparag">Before we started RROLLYS, we were looking for an accessible Sports & Fitness Club that wasn’t just for pros—but wasn’t just for fairweather sports fans either—and we couldn’t find one. You see, we’re all athletes at heart, having played little league, high school sports and more, so a mediocre facility just wouldn’t cut it for us—and a pro-field wouldn’t take us without formal backing.</p>
+            <p class="aboutparag2">So we made our own. We created a space we could be proud of, that would function as an economic draw for San Francisco, and would make sporting events available for everyone in the community. If you feel like sports are missing from your life, then we can help to get you back in the game.</p>
+            <a href="https://www.instagram.com/sirin_anill/" class="btna" target="_blank"><button class="btn1">Contact</button></a>
+        </div> 
+    </div>
+    <div class="rental" id="facilities">
+        <h2 class="rentalh2">​Configurable Rental Spaces</h2>
+        <p class="rentalp">​From event spaces to private and group sporting options, we have a variety of bookable options that are sure to fit your needs. To learn more, check out our facilities below and reach out with any questions.</p>
+        <img src="images/gym.jpg" class="rentalimg">
+        <img src="images/tennis.jpg" class="rentalimg2">
+        <img src="images/pool.jpg" class="rentalimg3">
+        <p class="imgp">GYM</p>
+        <p class="imgp4">No Pain, No Gain</p>
+        <p class="imgp2">Clubhouse</p>
+        <p class="imgp5">Let's Get Together</p>
+        <p class="imgp3">Swimming Pool</p>
+        <p class="imgp6">Ready To Host</p>
+    </div>
+      <!-- Slideshow container -->
+  <div class="slideshow-container">
+
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <img src="images/slide1.jpg" class="slideimg">
+        <div class="text">Award-Winning <br> M-F: 8am-8pm</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="images/slide2.jpg" class="slideimg">
+        <div class="text">Accurate and Honest <br> M-F: 8am-8pm</div>
+      </div>
+    
+      <div class="mySlides fade">
+        <img src="images/slide3.jpg" class="slideimg">
+        <div class="text">30 Day Guarantee <br> M-F: 8am-8pm</div>
+      </div>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+      <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+    <script>
+      var slideIndex = 0;
+      showSlides();
+      function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " active";
+        setTimeout(showSlides, 3000); 
+      }
+      </script>
+  
+</body>
+</html>
