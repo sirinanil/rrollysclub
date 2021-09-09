@@ -244,7 +244,8 @@ img.opening {
   img.opening {
     width: 640px;
   }
-  p.gmail {
+  p.gmail,
+  p.gmail2 {
     width: 225px;
   }
   .social {

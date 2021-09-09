@@ -15,7 +15,8 @@ p.adress {
   top: 164px;
   left: 231px;
 }
-p.gmail {
+p.gmail,
+p.gmail2 {
   position: absolute;
   top: 240px;
   left: 326px;
