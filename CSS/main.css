@@ -201,16 +201,56 @@ img.opening {
   height: 650px;
   object-fit: cover;
 }
-@media (max-width: 1377px) {
-  .HideOnMobile {
-    display: none;
+@media screen and (max-width: 1000px) {
+  nav.navbar {
+    width: 590px;
   }
-  .ShowOnMobile {
-    display: block;
+  .imgcon {
+    background-position-x: -788px;
+    width: 115%;
   }
-}
-@media (min-width: 1377px) {
-  .ShowOnMobile {
-    display: none;
+  .paragcon {
+    width: 448px;
+    margin-left: 345px;
+  }
+  img.aboutpic {
+    width: 796px;
+  }
+  .box {
+    left: 15%;
+  }
+  .slideshow-container {
+    width: 800px;
+  }
+  .rental {
+    width: 800px;
+  }
+  h2.rentalh2 {
+    left: 29%;
+  }
+  p.rentalp {
+    left: 16%;
+    width: 70%;
+  }
+  img.rentalimg3 {
+    left: 75%;
+  }
+  img.rentalimg2 {
+    left: 43%;
+  }
+  p.imgp4 {
+    left: 12%;
+  }
+  img.opening {
+    width: 640px;
+  }
+  p.gmail {
+    width: 225px;
+  }
+  .social {
+    width: 640px;
+  }
+  p.copyright {
+    width: 636px;
   }
 }

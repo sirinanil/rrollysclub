@@ -86,7 +86,6 @@ input.submit {
   color: #000;
   border: none;
   font-size: 23px;
-  cursor: pointer;
 }
 .style {
   background-color: #000;
@@ -116,16 +115,23 @@ a.fa {
 p.copyright {
   text-align: center;
 }
-@media (max-width: 1377px) {
-  .HideOnMobile {
+@media screen and (max-width: 1000px) {
+  .contact {
+    width: 645px;
+  }
+  h2.conheader {
     display: none;
   }
-  .ShowOnMobile {
-    display: block;
-  }
-}
-@media (min-width: 1377px) {
-  .ShowOnMobile {
+  p.adress {
     display: none;
+  }
+  p.gmail {
+    display: none;
+  }
+  p.phone {
+    display: none;
+  }
+  form.form {
+    right: -260px;
   }
 }

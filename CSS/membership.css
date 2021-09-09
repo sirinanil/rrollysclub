@@ -87,16 +87,23 @@ button.button2 {
 button.button3 {
   left: 68%;
 }
-@media (max-width: 1377px) {
-  .HideOnMobile {
-    display: none;
+@media screen and (max-width: 1000px) {
+  .contact {
+    width: 645px;
   }
-  .ShowOnMobile {
-    display: block;
+  p.basic2,
+  p.vip2,
+  p.premium2 {
+    font-size: 12px;
   }
-}
-@media (min-width: 1377px) {
-  .ShowOnMobile {
-    display: none;
+  .social {
+    width: 640px;
+  }
+  p.copyright {
+    width: 636px;
+  }
+  p.memheader3 {
+    width: 100%;
+    font-size: 14px;
   }
 }
