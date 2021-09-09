@@ -87,7 +87,7 @@ button.button2 {
 button.button3 {
   left: 68%;
 }
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   .contact {
     width: 645px;
   }

@@ -201,7 +201,7 @@ img.opening {
   height: 650px;
   object-fit: cover;
 }
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   nav.navbar {
     width: 590px;
   }

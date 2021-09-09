@@ -29,7 +29,7 @@ p.imgp5 {
 p.imgp6 {
   left: 77.3%;
 }
-@media screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
   img.rentalimg,
   img.rentalimg2,
   img.rentalimg3 {
